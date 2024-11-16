@@ -33,7 +33,7 @@ The smartwatch incorporates:
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
 
 
-### Smart Remote  :video_game:
+### [Smart Remote](Firmware/PoC_Firmware/Utility_Remote/remote.md)  :video_game:
 Serving as the primary control hub, the smart remote includes:
 - **Raspberry Pi and 7-inch HDMI Touchscreen**: For intuitive control of the whole system architecture.
 - **LoRa and ESP-NOW Modules**: Enabling long-range communication up to 10 km in LoRA and about five meters of communication with ESP-NOW protocol
