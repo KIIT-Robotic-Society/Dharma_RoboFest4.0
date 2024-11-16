@@ -22,7 +22,7 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 
 ## Subsystems
 
-### [Smart Watch](Firmware/PoC_Firmware/Utility_Watch/watch.md) :watch:
+### [Smart Watch](Utility_Watch/watch.md) :watch:
 The smartwatch incorporates:
 - **ESP-32 WROOM microcontroller**:The SoC of the embedded hardware.
 - **OLED screen**: Displays real-time status, bot location, connectivity, and enemy detection data.
@@ -33,7 +33,7 @@ The smartwatch incorporates:
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
 
 
-### [Smart Remote](Firmware/PoC_Firmware/Utility_Remote/remote.md)  :video_game:
+### [Smart Remote](Utility_Remote/remote.md)  :video_game:
 Serving as the primary control hub, the smart remote includes:
 - **Raspberry Pi and 7-inch HDMI Touchscreen**: For intuitive control of the whole system architecture.
 - **LoRa and ESP-NOW Modules**: Enabling long-range communication up to 10 km in LoRA and about five meters of communication with ESP-NOW protocol
@@ -42,7 +42,7 @@ Serving as the primary control hub, the smart remote includes:
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
 
-### [PoC Bot](Firmware/PoC_Firmware/POC_Bot/PoC_Bot.md) :dog2:
+### [PoC Bot](POC_Bot/PoC_Bot.md) :dog2:
 The main bot integrates:
 - **Teensy 4.1 Microcontroller**: Manages core functions, including servo control and scheduling of Tasks
 - **ESP 32 S3 Development Board**: Controlling the Peripheral Electronics like GPS, ToF Sensors and Gyroscopic Readngs.
@@ -51,7 +51,7 @@ The main bot integrates:
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
-### Turret System :gun:
+### [Turret System](main_BOT/PoC_Bot.md) :gun:
 The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
