@@ -42,7 +42,7 @@ Serving as the primary control hub, the smart remote includes:
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
 
-### PoC Bot :dog2:
+### [PoC Bot](Firmware/PoC_Firmware/POC_Bot/PoC_Bot.md) :dog2:
 The main bot integrates:
 - **Teensy 4.1 Microcontroller**: Manages core functions, including servo control and scheduling of Tasks
 - **ESP 32 S3 Development Board**: Controlling the Peripheral Electronics like GPS, ToF Sensors and Gyroscopic Readngs.
