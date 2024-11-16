@@ -22,7 +22,7 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 
 ## Subsystems
 
-### [Smart Watch](Firmware/Utility_Watch/watch.md) :watch:
+### [Smart Watch](Firmware/PoC_Firmware/Utility_Watch/watch.md) :watch:
 The smartwatch incorporates:
 - **ESP-32 WROOM microcontroller**:The SoC of the embedded hardware.
 - **OLED screen**: Displays real-time status, bot location, connectivity, and enemy detection data.
