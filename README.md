@@ -42,7 +42,7 @@ Serving as the primary control hub, the smart remote includes:
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
 
-### [PoC Bot](POC_Bot/PoC_Bot.md) :dog2:
+### [PoC Bot](main_BOT/PoC_Bot.md) :dog2:
 The main bot integrates:
 - **Teensy 4.1 Microcontroller**: Manages core functions, including servo control and scheduling of Tasks
 - **ESP 32 S3 Development Board**: Controlling the Peripheral Electronics like GPS, ToF Sensors and Gyroscopic Readngs.
@@ -51,7 +51,7 @@ The main bot integrates:
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
-### [Turret System](main_BOT/PoC_Bot.md) :gun:
+### [Turret System](Turret_System/turret.md) :gun:
 The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
