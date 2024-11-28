@@ -481,8 +481,12 @@
       "UART Bridge"
     ],
     [
-      "04e5e68f-fea4-448b-8f16-99b81e8cc475",
-      "SoC"
+      "614e05fa-fc98-4a1e-9df4-66844426752b",
+      "5v~buck1"
+    ],
+    [
+      "e374206c-7705-48ec-b39f-dba8b32f352d",
+      "SoC1"
     ]
   ],
   "text_variables": {}

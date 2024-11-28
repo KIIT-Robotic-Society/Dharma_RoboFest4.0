@@ -537,6 +537,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ceb4bc3e-5ebb-4a0f-99c7-699815626de3</tstamps>
     </comp>
+    <comp ref="J8">
+      <value>ICSP</value>
+      <footprint>Button_Switch_SMD:solder_pad_4</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Watch_v3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0de72cd-8c1a-4195-9b4c-28d861f3181c</tstamps>
+    </comp>
     <comp ref="LS1">
       <value>CMT-8530S-SMT</value>
       <footprint>Capacitor_SMD:CUI_CMT-8530S-SMT</footprint>
@@ -1913,6 +1924,7 @@
       <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R38" pin="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="CE" pintype="input"/>
@@ -1992,6 +2004,7 @@
     </net>
     <net code="17" name="/RX">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="U4" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
     </net>
@@ -2023,6 +2036,7 @@
     </net>
     <net code="22" name="/TX">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="U4" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
     </net>
@@ -2085,6 +2099,7 @@
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
