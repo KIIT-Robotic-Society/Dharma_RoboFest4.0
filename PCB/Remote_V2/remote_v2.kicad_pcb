@@ -10607,7 +10607,7 @@
 
   (footprint "Button_Switch_SMD:MODULE_RASPBERRY_PI_4B_4GB" (layer "F.Cu")
     (tstamp 967fd619-e6e3-4964-b3f2-4dc28a272d7f)
-    (at 490.062 38.91)
+    (at 199.6195 40.915)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=eda")
     (property "Description" "\n                        \n                            BCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board\n                        \n")
