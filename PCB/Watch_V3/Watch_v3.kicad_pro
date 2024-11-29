@@ -114,18 +114,18 @@
         "min_clearance": 0.152,
         "min_connection": 0.154,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.16,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.152,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.35,
         "min_microvia_drill": 0.35,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
+        "min_silk_clearance": 0.153,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.39999999999999997,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.152,
-        "min_via_annular_width": 0.44999999999999996,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -173,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.153,
         0.16,
         0.17
       ],
@@ -182,8 +183,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.15,
-          "drill": 0.25
+          "diameter": 0.47,
+          "drill": 0.16
         }
       ],
       "zones_allow_external_fillets": false

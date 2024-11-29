@@ -1,4 +1,4 @@
-22708119359234691
+22709852334868791
 Audio_Module
 5v_usbbuck
 
@@ -1700,6 +1700,13 @@ smd_pad_test
 0
 1
 1
+Button_Switch_SMD
+solder_10
+
+
+0
+10
+10
 Button_Switch_SMD
 solder_motor
 
