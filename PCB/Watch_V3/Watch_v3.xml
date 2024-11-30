@@ -736,7 +736,7 @@
       <tstamps>ac772e6c-b70a-4123-9edf-32eeacae6d4a</tstamps>
     </comp>
     <comp ref="R7">
-      <value>1K</value>
+      <value>1.2K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1121,7 +1121,7 @@
       <tstamps>06d75b61-bf3b-4251-9e74-da4276c0d007</tstamps>
     </comp>
     <comp ref="SW4">
-      <value>Select</value>
+      <value>Mode</value>
       <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
       <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
       <property name="Sheetname" value=""/>
@@ -1132,7 +1132,7 @@
       <tstamps>7c7ca444-5113-4b66-a493-05645572030f</tstamps>
     </comp>
     <comp ref="SW5">
-      <value>Mode</value>
+      <value>Down</value>
       <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
       <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
       <property name="Sheetname" value=""/>
@@ -1143,7 +1143,7 @@
       <tstamps>605a50eb-60cd-4c8c-984d-dbbd18ec507f</tstamps>
     </comp>
     <comp ref="SW6">
-      <value>Up</value>
+      <value>Select</value>
       <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
       <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
       <property name="Sheetname" value=""/>
@@ -1154,7 +1154,7 @@
       <tstamps>3ab30eb9-a6e3-422c-b8f3-4c857eef7f4e</tstamps>
     </comp>
     <comp ref="SW7">
-      <value>Down</value>
+      <value>Up</value>
       <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
       <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
       <property name="Sheetname" value=""/>
