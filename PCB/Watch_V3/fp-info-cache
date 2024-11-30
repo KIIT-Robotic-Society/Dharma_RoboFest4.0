@@ -1,4 +1,4 @@
-22709852334868791
+22716784192092917
 Audio_Module
 5v_usbbuck
 
@@ -378,12 +378,33 @@ Motor Vib
 2
 2
 Battery
+robo
+
+
+0
+0
+0
+Battery
+robo2
+
+
+0
+0
+0
+Battery
 smd_pad_10
 
 
 0
 3
 3
+Battery
+xx
+
+
+0
+0
+0
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -86528,6 +86549,13 @@ ss3
 0
 Smart home image
 ss4
+
+
+0
+0
+0
+Smart home image
+xx
 
 
 0
