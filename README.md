@@ -7,7 +7,7 @@ Dharma Bot is a sophisticated quadruped robotic dog featuring 12 degrees of free
 
 - [@mr-spaw](https://github.com/mr-spaw) :space_invader:
 - [@LordCretivo](https://github.com/LordCretivo) :teddy_bear:
-- [@DeepseaBandit](https://github.com/DeepseaBandit) :merman:
+- [@DeepseaBandit](https://github.com/DeepseaBandit) :smirk_cat:
 
 ## Documentation :notebook_with_decorative_cover:
 
