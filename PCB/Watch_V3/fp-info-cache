@@ -1,4 +1,4 @@
-22716784192092917
+22720279272408459
 Audio_Module
 5v_usbbuck
 
@@ -27,6 +27,20 @@ buck 5v
 0
 13
 4
+Battery
+AMASS_XT60PW-M
+
+
+0
+4
+4
+Battery
+BAT_1042P
+
+
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

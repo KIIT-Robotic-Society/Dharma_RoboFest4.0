@@ -252,25 +252,85 @@
     </comp>
     <comp ref="C47">
       <value>100uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <footprint>Battery:CAPAE830X1000N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Capacitor Aluminum Electrolytic, 1000h 6.3 (Dia.) x 7.7mm, 100uF, 35V, WT Series | Nichicon UWT1V101MCL1GS
+                        
+</field>
+        <field name="MANUFACTURER">Nichicon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.7mm</field>
+        <field name="MF">Nichicon</field>
+        <field name="MP">UWT1V101MCL1GS</field>
+        <field name="PARTREV">CAT.8100L</field>
+        <field name="Package">Radial Nichicon</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">UWT1V101MCL1GS</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="UWT1V101MCL1GS" part="UWT1V101MCL1GS" description=""/>
+      <property name="MF" value="Nichicon"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.7mm"/>
+      <property name="Package" value="Radial Nichicon"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="CAT.8100L"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=snap"/>
+      <property name="MP" value="UWT1V101MCL1GS"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Capacitor Aluminum Electrolytic, 1000h 6.3 (Dia.) x 7.7mm, 100uF, 35V, WT Series | Nichicon UWT1V101MCL1GS&#xA;                        &#xA;"/>
+      <property name="MANUFACTURER" value="Nichicon"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="UWT1V101MCL1GS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="remote_v2.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b7a6428b-fc6c-4807-aefc-41c09f37965e</tstamps>
+      <tstamps>7032c2d2-9229-42a4-8d37-5a4ac023be56</tstamps>
     </comp>
     <comp ref="C48">
       <value>100uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <footprint>Battery:CAPAE830X1000N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Capacitor Aluminum Electrolytic, 1000h 6.3 (Dia.) x 7.7mm, 100uF, 35V, WT Series | Nichicon UWT1V101MCL1GS
+                        
+</field>
+        <field name="MANUFACTURER">Nichicon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.7mm</field>
+        <field name="MF">Nichicon</field>
+        <field name="MP">UWT1V101MCL1GS</field>
+        <field name="PARTREV">CAT.8100L</field>
+        <field name="Package">Radial Nichicon</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">UWT1V101MCL1GS</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="UWT1V101MCL1GS" part="UWT1V101MCL1GS" description=""/>
+      <property name="MF" value="Nichicon"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.7mm"/>
+      <property name="Package" value="Radial Nichicon"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="CAT.8100L"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/UWT1V101MCL1GS/Nichicon/view-part/?ref=snap"/>
+      <property name="MP" value="UWT1V101MCL1GS"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Capacitor Aluminum Electrolytic, 1000h 6.3 (Dia.) x 7.7mm, 100uF, 35V, WT Series | Nichicon UWT1V101MCL1GS&#xA;                        &#xA;"/>
+      <property name="MANUFACTURER" value="Nichicon"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="UWT1V101MCL1GS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="remote_v2.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>12623218-37e1-465f-af3e-5e0807c35d19</tstamps>
+      <tstamps>8b948504-ab6f-4632-bc86-be74f0e5ca1d</tstamps>
     </comp>
     <comp ref="C49">
       <value>0.1uF</value>
@@ -949,7 +1009,7 @@
     </comp>
     <comp ref="J27">
       <value>RASP Peripheral</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <footprint>Button_Switch_SMD:solder_10</footprint>
       <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="remote_v2.kicad_sch"/>
@@ -1505,7 +1565,7 @@
       <tstamps>e827bfe0-a51b-4792-8847-8b224dd3bb42</tstamps>
     </comp>
     <comp ref="U2">
-      <value>RASPBERRY_PI_4B_4GB</value>
+      <value>RASPBERRY_PI_5</value>
       <footprint>Button_Switch_SMD:MODULE_RASPBERRY_PI_4B_4GB</footprint>
       <fields>
         <field name="Availability">In Stock</field>
