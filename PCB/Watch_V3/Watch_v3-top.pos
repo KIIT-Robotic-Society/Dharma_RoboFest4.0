@@ -1,0 +1,44 @@
+### Footprint positions - created on  ###
+### Printed by KiCad version 7.0.10
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                          Package                                                       PosX       PosY       Rot  Side
+C1        0.1uF                        C_0402_1005Metric                                         144.1800   -98.6500  180.0000  top
+C7        0.1uF                        C_0402_1005Metric                                         133.0000   -81.6000   90.0000  top
+C8        0.1uF                        C_0402_1005Metric                                         159.5750   -81.4800   90.0000  top
+C13       0.1uF                        C_0402_1005Metric                                         155.0300  -102.9500  180.0000  top
+C14       0.1uF                        C_0402_1005Metric                                         158.0200  -104.2750    0.0000  top
+C15       0.1uF                        C_0402_1005Metric                                         140.6250   -97.9500  180.0000  top
+C16       0.1uF                        C_0402_1005Metric                                         140.6750   -96.8250  180.0000  top
+C19       0.1uF                        C_0402_1005Metric                                         155.0200  -104.4250    0.0000  top
+C20       0.1uF                        C_0402_1005Metric                                         155.0450  -105.8250    0.0000  top
+D1        SS34                         P25_DO-214AC_SMA                                          139.2500  -100.2750  -90.0000  top
+D2        LED                          LED_0402_1005Metric                                       158.6850   -93.4000    0.0000  top
+D3        LED                          LED_0402_1005Metric                                       157.9500   -96.9250    0.0000  top
+D4        LED                          LED_0402_1005Metric                                       157.9600   -98.8750    0.0000  top
+J1        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal   148.0700  -104.2250    0.0000  top
+J4        OLED                         PinHeader_1x04_P2.54mm_Vertical                           135.2000   -84.7750    0.0000  top
+J7        MAX30102                     PinHeader_1x07_P2.54mm_Vertical                           155.4050   -93.4000  -90.0000  top
+J8        Conn_01x07_Pin               solder_7                                                  165.4250   -90.3500   90.0000  top
+Q1        AO3401A                      SOT-23                                                    135.9875   -96.2750  180.0000  top
+R1        5.1K                         R_0402_1005Metric                                         148.5850   -98.6500    0.0000  top
+R2        5.1K                         R_0402_1005Metric                                         146.3850   -98.6500    0.0000  top
+R3        100K                         R_0402_1005Metric                                         152.8350   -98.7000    0.0000  top
+R4        150E                         R_0402_1005Metric                                         158.7150   -94.5750    0.0000  top
+R6        1K                           R_0402_1005Metric                                         152.8400   -96.5750  180.0000  top
+R9        0                            R_0402_1005Metric                                         160.8150   -84.2750    0.0000  top
+R12       1K                           R_0402_1005Metric                                         136.3750   -81.5250  -90.0000  top
+R13       1K                           R_0402_1005Metric                                         162.9250   -81.5250  -90.0000  top
+R19       1K                           R_0402_1005Metric                                         132.3750   -89.7100   90.0000  top
+R20       0                            R_0402_1005Metric                                         150.7350   -98.6750    0.0000  top
+R25       0                            R_0402_1005Metric                                         149.7000   -96.1250  180.0000  top
+R38       0                            R_0402_1005Metric                                         158.0900  -101.8000    0.0000  top
+SW1       SW_DPST_x2                   SW_SPST_B3U-1000P-B                                       134.6250   -78.7500  180.0000  top
+SW2       SW_SPDT                      SW_Slide_1P2T_CK_OS102011MS2Q                             128.4500   -89.9750   90.0000  top
+SW3       SW_DPST_x2                   SW_SPST_B3U-1000P-B                                       161.1750   -78.7250    0.0000  top
+SW4       Mode                         SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS          161.2500   -71.8750   90.0000  top
+SW5       Down                         SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS          134.4250   -72.0500   90.0000  top
+SW6       Select                       SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS          161.3500  -103.8500  -90.0000  top
+SW7       Up                           SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS          134.7750  -104.4500   90.0000  top
+U4        ESP32-WROOM-32D              ESP32-WROOM-32D                                           147.8250   -80.2500    0.0000  top
+## End
