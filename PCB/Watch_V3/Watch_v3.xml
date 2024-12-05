@@ -427,17 +427,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>641858ef-12e1-4f93-98c9-bc644edef1b5</tstamps>
     </comp>
-    <comp ref="J3">
-      <value>Peripheral</value>
-      <footprint>Button_Switch_SMD:solder_pad_4</footprint>
-      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Watch_v3.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>341cc923-20f6-4089-b92d-6886a5a1e590</tstamps>
-    </comp>
     <comp ref="J4">
       <value>OLED</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
@@ -690,7 +679,7 @@
       <tstamps>691f9fd1-146c-4df3-8a3c-90da730c46f6</tstamps>
     </comp>
     <comp ref="R14">
-      <value>1K</value>
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -979,7 +968,7 @@
     </comp>
     <comp ref="U3">
       <value>TP4056</value>
-      <footprint>TP4056:SOP127P600X175-9N</footprint>
+      <footprint>Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm</footprint>
       <fields>
         <field name="Availability">Not in stock</field>
         <field name="Check_prices">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda</field>
@@ -1028,7 +1017,7 @@
     </comp>
     <comp ref="U6">
       <value>MPU-6050</value>
-      <footprint>Button_Switch_SMD:QFN50P400X400X95-24N</footprint>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm</footprint>
       <fields>
         <field name="Availability">In Stock</field>
         <field name="Check_prices">https://www.snapeda.com/parts/MPU-6050/TDK+InvenSense/view-part/?ref=eda</field>
@@ -1646,15 +1635,12 @@
       <node ref="U3" pin="5" pinfunction="BAT" pintype="output"/>
     </net>
     <net code="4" name="/12">
-      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U4" pin="14" pinfunction="IO12" pintype="bidirectional"/>
     </net>
     <net code="5" name="/14">
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="IO14" pintype="bidirectional"/>
     </net>
     <net code="6" name="/27">
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U4" pin="12" pinfunction="IO27" pintype="bidirectional"/>
     </net>
     <net code="7" name="/ADC_Batt">
@@ -1775,7 +1761,6 @@
       <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
@@ -2020,13 +2005,13 @@
       <node ref="U6" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
     <net code="82" name="unconnected-(U6-NC-Pad14)">
-      <node ref="U6" pin="14" pinfunction="NC" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
     <net code="83" name="unconnected-(U6-NC-Pad15)">
       <node ref="U6" pin="15" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
     <net code="84" name="unconnected-(U6-NC-Pad16)">
-      <node ref="U6" pin="16" pinfunction="NC" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
     <net code="85" name="unconnected-(U6-NC-Pad17)">
       <node ref="U6" pin="17" pinfunction="NC" pintype="passive"/>

@@ -1,4 +1,4 @@
-22720279618351456
+22725567708949706
 Audio_Module
 5v_usbbuck
 
@@ -391,6 +391,20 @@ Motor Vib
 0
 2
 2
+Battery
+dog
+
+
+0
+0
+0
+Battery
+dog2
+
+
+0
+0
+0
 Battery
 robo
 
@@ -1735,6 +1749,13 @@ smd_pad_test
 0
 1
 1
+Button_Switch_SMD
+solder_7
+
+
+0
+7
+7
 Button_Switch_SMD
 solder_10
 
