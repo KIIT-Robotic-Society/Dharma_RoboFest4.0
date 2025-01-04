@@ -1825,7 +1825,6 @@
       <node ref="Q4" pin="2" pintype="passive"/>
     </net>
     <net code="32" name="Net-(Q1-D)">
-      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="D1" pin="C" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
@@ -1894,6 +1893,7 @@
     <net code="46" name="VBUS">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
