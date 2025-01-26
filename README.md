@@ -52,7 +52,7 @@ The main bot integrates:
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
-### [ProtoType Bot](main_BOT/PoC_Bot.md) :dog2:
+### [ProtoType Bot](main_BOT/PoC_Bot.md) :guide_dog:
 The main bot integrates the following components:
 
 - **STM32H755ZI-Q**: Manages core functions, handles communication with the SBCs, and controls peripheral electronics and FOC drivers.
@@ -66,7 +66,7 @@ The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
 
-### [Hand Gripper](Turret_System/turret.md) :gun:
+### [Hand Gripper](Turret_System\turret.md) :mechanical_arm:
 The gripper system features:
 
 - **NVIDIA Jetson Orin Nano**: This powerful local SBC runs the reinforcement learning (RL) model, enabling real-time object recognition and environmental analysis using LIDAR and 3D cameras for seamless operation.
