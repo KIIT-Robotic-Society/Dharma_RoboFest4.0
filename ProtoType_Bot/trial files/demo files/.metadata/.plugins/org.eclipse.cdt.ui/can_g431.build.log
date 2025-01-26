@@ -1,0 +1,32 @@
+23:35:23 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:106:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:106:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:106:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:115:7: warning: "/*" within comment [-Wcomment]
+  115 |       /* Notification Error */
+      |        
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18592	     96	   2392	  21080	   5258	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+
+23:35:23 Build Finished. 0 errors, 3 warnings. (took 809ms)
+

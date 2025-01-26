@@ -1,0 +1,17 @@
+21:30:23 **** Incremental Build of configuration Debug for project gps_1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/gps.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gps.d" -MT"Core/Src/gps.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gps.o"
+arm-none-eabi-gcc -o "gps_1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\MPU9250\gps_1\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gps_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: gps_1.elf
+ 
+arm-none-eabi-size  gps_1.elf 
+arm-none-eabi-objdump -h -S gps_1.elf  > "gps_1.list"
+   text	   data	    bss	    dec	    hex	filename
+  38404	    468	   2308	  41180	   a0dc	gps_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: gps_1.list
+ 
+
+21:30:24 Build Finished. 0 errors, 0 warnings. (took 1s.9ms)
+

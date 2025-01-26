@@ -1,0 +1,32 @@
+!SESSION 2024-12-22 10:43:20.656 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-22 10:43:47.533
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-22 10:43:47.535
+!MESSAGE Log4j2 initialized with config file C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-22 10:43:51.543
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-12-22 10:44:51.363 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-22 10:44:57.799
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-22 10:44:57.800
+!MESSAGE Log4j2 initialized with config file C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-22 10:45:01.716
+!MESSAGE Started RMI Server, listening on port 41337

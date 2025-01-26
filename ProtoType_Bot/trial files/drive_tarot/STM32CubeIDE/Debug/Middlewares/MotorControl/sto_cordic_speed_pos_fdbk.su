@@ -1,0 +1,15 @@
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:144:16:STO_CR_CalcElAngle	56	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:461:13:STO_CR_CalcAvrgMecSpeedUnit	20	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:624:13:STO_CR_Clear	16	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:87:13:STO_CR_Init	8	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:725:13:STO_CR_IsObserverConverged	12	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:845:20:STO_CR_GetEstimatedBemf	8	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:871:20:STO_CR_GetEstimatedCurrent	8	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:910:13:STO_CR_GetObserverGains	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:934:13:STO_CR_SetObserverGains	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:968:13:STO_CR_CalcAvrgElSpeedDpp	8	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:1047:13:STO_CR_BemfConsistencyCheckSwitch	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:1068:13:STO_CR_IsBemfConsistent	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:1085:13:STO_CR_IsSpeedReliable	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:1107:13:STO_CR_ForceConvergency1	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_cordic_speed_pos_fdbk.c:1128:13:STO_CR_ForceConvergency2	0	static

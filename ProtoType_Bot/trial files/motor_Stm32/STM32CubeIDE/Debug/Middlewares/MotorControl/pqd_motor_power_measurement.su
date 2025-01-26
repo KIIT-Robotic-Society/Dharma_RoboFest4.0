@@ -1,0 +1,3 @@
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/pqd_motor_power_measurement.c:65:13:PQD_CalcElMotorPower	4	static
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/pqd_motor_power_measurement.c:98:13:PQD_Clear	0	static
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/pqd_motor_power_measurement.c:123:16:PQD_GetAvrgElMotorPowerW	16	static

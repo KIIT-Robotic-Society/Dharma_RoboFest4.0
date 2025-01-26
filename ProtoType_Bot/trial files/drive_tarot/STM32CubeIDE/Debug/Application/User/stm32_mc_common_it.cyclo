@@ -1,0 +1,4 @@
+C:/Users/mrspa/Documents/drive_tarot/Src/stm32_mc_common_it.c:71:6:USART2_IRQHandler	12
+C:/Users/mrspa/Documents/drive_tarot/Src/stm32_mc_common_it.c:149:6:HardFault_Handler	1
+C:/Users/mrspa/Documents/drive_tarot/Src/stm32_mc_common_it.c:168:6:SysTick_Handler	3
+C:/Users/mrspa/Documents/drive_tarot/Src/stm32_mc_common_it.c:214:6:EXTI15_10_IRQHandler	2

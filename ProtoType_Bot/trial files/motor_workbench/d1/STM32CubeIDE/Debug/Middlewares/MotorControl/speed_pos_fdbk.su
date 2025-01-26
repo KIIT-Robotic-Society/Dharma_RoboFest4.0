@@ -1,0 +1,7 @@
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:64:16:SPD_GetMecAngle	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:78:16:SPD_GetAvrgMecSpeedUnit	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:96:16:SPD_GetElSpeedDpp	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:132:13:SPD_IsMecSpeedReliable	8	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:251:16:SPD_GetS16Speed	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:281:16:SPD_GetElToMecRatio	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk.c:299:13:SPD_SetElToMecRatio	0	static

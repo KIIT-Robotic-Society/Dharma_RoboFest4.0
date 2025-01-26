@@ -1,0 +1,53 @@
+14:28:27 **** Incremental Build of configuration Debug for project stm_receive ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_CAN_RxFifoMsgPendingCallback':
+../Core/Src/main.c:80:19: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   80 |         int len = sprintf(uart_buffer, "Received Data: %d, %d\r\n", RxData[0], RxData[1]);
+      |                   ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:80:19: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   80 |         int len = sprintf(uart_buffer, "Received Data: %d, %d\r\n", RxData[0], RxData[1]);
+      |                   ^~~~~~~
+../Core/Src/main.c:80:19: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:138:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  138 |     HAL_UART_Transmit(&huart2, "HII", strlen("HII"), HAL_MAX_DELAY);
+      |                                       ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:138:39: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  138 |     HAL_UART_Transmit(&huart2, "HII", strlen("HII"), HAL_MAX_DELAY);
+      |                                       ^~~~~~
+../Core/Src/main.c:138:39: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:138:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  138 |     HAL_UART_Transmit(&huart2, "HII", strlen("HII"), HAL_MAX_DELAY);
+      |                                ^~~~~
+      |                                |
+      |                                char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "stm_receive.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\LORA\stm_receive\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm_receive.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm_receive.elf
+ 
+arm-none-eabi-size  stm_receive.elf 
+arm-none-eabi-objdump -h -S stm_receive.elf  > "stm_receive.list"
+   text	   data	    bss	    dec	    hex	filename
+  12092	     12	   1716	  13820	   35fc	stm_receive.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm_receive.list
+ 
+
+14:28:29 Build Finished. 0 errors, 5 warnings. (took 1s.910ms)
+

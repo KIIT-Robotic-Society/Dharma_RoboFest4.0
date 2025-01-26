@@ -1,0 +1,7 @@
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:449:13:FOC_Clear	16	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:78:13:FOC_Init	40	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:156:6:TSK_MF_StopProcessing	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:494:13:FOC_InitAdditionalMethods	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:525:13:FOC_CalcCurrRef	32	static,ignoring_inline_asm
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:174:13:TSK_MediumFrequencyTaskM1	32	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks_foc.c:588:16:FOC_HighFrequencyTask	72	static

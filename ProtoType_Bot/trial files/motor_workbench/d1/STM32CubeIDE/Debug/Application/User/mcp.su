@@ -1,0 +1,4 @@
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mcp.c:54:9:RI_SetRegCommandParser	72	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mcp.c:157:9:RI_GetRegCommandParser	56	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mcp.c:223:6:MCP_ReceivedPacket	32	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mcp.c:403:9:MCP_RegisterCallBack	0	static

@@ -1,0 +1,4 @@
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:50:13:OL_Init	1
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:73:13:OL_VqdConditioning	1
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:90:13:OL_Calc	3
+C:/Users/mrspa/Documents/motor_Stm32/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:126:13:OL_VF	1

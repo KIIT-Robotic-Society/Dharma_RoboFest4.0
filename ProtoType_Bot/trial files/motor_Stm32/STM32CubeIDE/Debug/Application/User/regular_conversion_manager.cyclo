@@ -1,0 +1,10 @@
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:201:6:RCM_RegisterRegConv	33
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:166:6:RCM_RegisterRegConv_WithCB	2
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:309:10:RCM_ExecRegularConv	18
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:427:6:RCM_RequestUserConv	2
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:452:10:RCM_GetUserConv	2
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:474:6:RCM_ExecUserConv	5
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:523:21:RCM_GetUserConvState	1
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:545:6:RCM_PauseRegularConv	3
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:592:6:RCM_ExecNextConv	3
+C:/Users/mrspa/Documents/motor_Stm32/Src/regular_conversion_manager.c:634:6:RCM_ReadOngoingConv	4

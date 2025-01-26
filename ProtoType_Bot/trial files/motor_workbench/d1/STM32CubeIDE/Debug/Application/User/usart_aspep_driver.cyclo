@@ -1,0 +1,6 @@
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:44:6:UASPEP_INIT	5
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:56:6:UASPEP_TX_INIT	3
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:93:6:UASPEP_RX_INIT	3
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:130:6:UASPEP_CFG_TRANSMISSION	2
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:153:6:UASPEP_CFG_RECEPTION	1
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/usart_aspep_driver.c:169:6:UASPEP_IDLE_ENABLE	2

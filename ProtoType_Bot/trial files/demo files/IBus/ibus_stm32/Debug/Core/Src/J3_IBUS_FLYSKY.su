@@ -1,0 +1,4 @@
+../Core/Src/J3_IBUS_FLYSKY.c:18:10:J3_IBUS_new	24	static
+../Core/Src/J3_IBUS_FLYSKY.c:42:6:J3_IBUS_ProcessBuffer	32	static
+../Core/Src/J3_IBUS_FLYSKY.c:90:10:J3_IBUS_GetCh	16	static
+../Core/Src/J3_IBUS_FLYSKY.c:100:6:J3_IBUS_RequestNewData	16	static

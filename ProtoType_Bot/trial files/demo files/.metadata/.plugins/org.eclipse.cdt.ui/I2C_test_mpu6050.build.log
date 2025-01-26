@@ -1,0 +1,32 @@
+12:40:18 **** Incremental Build of configuration Debug for project I2C_test_mpu6050 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F070xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -u _printf_float -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:127:25: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  127 |                         printf("%d, %d, %d\n", MPU6050.acc_x_raw, MPU6050.acc_y_raw, MPU6050.acc_z_raw);
+      |                         ^~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   24 | #include<MPU6050.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:127:25: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  127 |                         printf("%d, %d, %d\n", MPU6050.acc_x_raw, MPU6050.acc_y_raw, MPU6050.acc_z_raw);
+      |                         ^~~~~~
+../Core/Src/main.c:127:25: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:129:33: warning: unused variable 'buffer' [-Wunused-variable]
+  129 |                            char buffer[256];  // Buffer to store the formatted string
+      |                                 ^~~~~~
+arm-none-eabi-gcc -o "I2C_test_mpu6050.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\mrspa\Documents\RoboFest\demo files\MPU6050\I2C_test_mpu6050\STM32F070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_test_mpu6050.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: I2C_test_mpu6050.elf
+ 
+arm-none-eabi-size  I2C_test_mpu6050.elf 
+arm-none-eabi-objdump -h -S I2C_test_mpu6050.elf  > "I2C_test_mpu6050.list"
+   text	   data	    bss	    dec	    hex	filename
+  43880	    468	   2244	  46592	   b600	I2C_test_mpu6050.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C_test_mpu6050.list
+ 
+
+12:40:20 Build Finished. 0 errors, 3 warnings. (took 1s.384ms)
+

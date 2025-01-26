@@ -1,0 +1,66 @@
+// Most of the functionality of this library is based on the VL53L0X API
+
+//---------------------------------------------------------
+// I2C communication Functions
+//---------------------------------------------------------
+// Write an 8-bit register
+/*void writeReg(uint8_t reg, uint8_t value) {
+
+  msgBuffer[0] = value; // Assign the value to the buffer.
+  i2cStat = HAL_I2C_Mem_Write(&VL53L0X_I2C_Handler, g_i2cAddr | I2C_WRITE, reg, 1, msgBuffer, 1, I2C_TIMEOUT);
+}*/
+
+
+// Public Methods //////////////////////////////////////////////////////////////
+
+
+// Initialize sensor using sequence based on VL53L0X_DataInit(),
+// VL53L0X_StaticInit(), and VL53L0X_PerformRefCalibration().
+// This function does not perform reference SPAD calibration
+// (VL53L0X_PerformRefSpadManagement()), since the API user manual says that it
+// is performed by ST on the bare modules; it seems like that should work well
+// enough unless a cover glass is added.
+// If io_2v8 (optional) is true or not given, the sensor is configured for 2V8
+// mode.
+
+
+// Set the return signal rate limit check value in units of MCPS (mega counts
+// per second). "This represents the amplitude of the signal reflected from the
+// target and detected by the device"; setting this limit presumably determines
+// the minimum measurement necessary for the sensor to report a valid reading.
+// Setting a lower limit increases the potential range of the sensor but also
+// seems to increase the likelihood of getting an inaccurate reading because of
+// unwanted reflections from objects other than the intended target.
+// Defaults to 0.25 MCPS as initialized by the ST API and this library.
+
+
+// Get the return signal rate limit check value in MCPS
+
+
+// Set the measurement timing budget in microseconds, which is the time allowed
+// for one measurement; the ST API and this library take care of splitting the
+// timing budget among the sub-steps in the ranging sequence. A longer timing
+// budget allows for more accurate measurements. Increasing the budget by a
+// factor of N decreases the range measurement standard deviation by a factor of
+// sqrt(N). Defaults to about 33 milliseconds; the minimum is 20 ms.
+// based on VL53L0X_set_measurement_timing_budget_micro_seconds()
+
+// Get the measurement timing budget in microseconds
+// based on VL53L0X_get_measurement_timing_budget_micro_seconds()
+// in us
+
+// Did a timeout occur in one of the read functions since the last call to
+// timeoutOccurred()?
+
+
+// Private Methods /////////////////////////////////////////////////////////////
+
+// Get reference SPAD (single photon avalanche diode) count and type
+// based on VL53L0X_get_info_from_device(),
+// but only gets reference SPAD count and type
+
+// Get sequence step enables
+// based on VL53L0X_GetSequenceStepEnables()
+
+
+

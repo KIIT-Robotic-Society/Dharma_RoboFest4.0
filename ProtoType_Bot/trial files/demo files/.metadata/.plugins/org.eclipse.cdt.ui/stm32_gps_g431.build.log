@@ -1,0 +1,10 @@
+20:44:15 **** Incremental Build of configuration Debug for project stm32_gps_g431 ****
+make -j8 all 
+arm-none-eabi-size  stm32_gps_g431.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38068	    472	   3352	  41892	   a3a4	stm32_gps_g431.elf
+Finished building: default.size.stdout
+ 
+
+20:44:15 Build Finished. 0 errors, 0 warnings. (took 222ms)
+

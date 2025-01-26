@@ -1,0 +1,10 @@
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:94:13:FF_Init	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:124:13:FF_Clear	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:150:13:FF_VqdffComputation	4
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:219:13:FF_VqdConditioning	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:264:13:FF_DataProcess	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:312:13:FF_InitFOCAdditionalMethods	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:338:13:FF_SetFFConstants	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:367:26:FF_GetFFConstants	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:396:13:FF_GetVqdff	1
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:421:13:FF_GetVqdAvPIout	1

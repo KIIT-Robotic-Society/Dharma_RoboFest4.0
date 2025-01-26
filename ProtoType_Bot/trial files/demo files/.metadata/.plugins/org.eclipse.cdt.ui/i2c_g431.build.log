@@ -1,0 +1,56 @@
+17:49:27 **** Incremental Build of configuration Debug for project i2c_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Template/cmsis_os1.d" -MT"Drivers/CMSIS/RTOS2/Template/cmsis_os1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Template/cmsis_os1.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_systick.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_systick.d" -MT"Drivers/CMSIS/RTOS2/Source/os_systick.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_systick.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.d" -MT"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.d" -MT"Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.d" -MT"Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.d" -MT"Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.o"
+../Drivers/CMSIS/RTOS2/Source/os_systick.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c:28:
+../Drivers/CMSIS/RTOS2/Template/cmsis_os.h:157:10: fatal error: cmsis_os2.h: No such file or directory
+  157 | #include "cmsis_os2.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c:25:10: fatal error: RTE_Components.h: No such file or directory
+   25 | #include "RTE_Components.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Template/subdir.mk:19: Drivers/CMSIS/RTOS2/Template/cmsis_os1.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_systick.o] Error 1
+../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c:31:10: fatal error: arm_math.h: No such file or directory
+   31 | #include "arm_math.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c:31:10: fatal error: arm_math.h: No such file or directory
+   31 | #include "arm_math.h"
+      |          ^~~~~~~~~~~~
+../Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c:31:10: fatal error: arm_math.h: No such file or directory
+   31 | #include "arm_math.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [Drivers/CMSIS/NN/Source/SoftmaxFunctions/subdir.mk:22: Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o] Error 1
+make: *** [Drivers/CMSIS/NN/Source/SoftmaxFunctions/subdir.mk:22: Drivers/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.o] Error 1
+make: *** [Drivers/CMSIS/NN/Source/PoolingFunctions/subdir.mk:19: Drivers/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.o] Error 1
+../Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c:31:10: fatal error: arm_nnfunctions.h: No such file or directory
+   31 | #include "arm_nnfunctions.h"
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/NN/Source/NNSupportFunctions/subdir.mk:31: Drivers/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+17:49:41 Build Failed. 17 errors, 0 warnings. (took 13s.359ms)
+
