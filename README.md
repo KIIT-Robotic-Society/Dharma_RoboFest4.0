@@ -66,7 +66,7 @@ The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
 
-### [Hand Gripper](Turret_System\turret.md) :mechanical_arm:
+### [Hand Gripper](Gripper\Gripper.md) :mechanical_arm:
 The gripper system features:
 
 - **NVIDIA Jetson Orin Nano**: This powerful local SBC runs the reinforcement learning (RL) model, enabling real-time object recognition and environmental analysis using LIDAR and 3D cameras for seamless operation.
