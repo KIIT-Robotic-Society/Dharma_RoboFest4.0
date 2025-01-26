@@ -77,6 +77,8 @@ This project was developed as part of RoboFest, held in 2024, organised by Gujar
 
 The project has participated in the Grand Final of RoboFest Gujarat 4.0, hosted by the Gujarat Government, in Ahmedabad.
 
+*Project Under Development*
+
 ## Social Media :star2:
 [Website](https://krs.kiit.ac.in)
 [Instagram](https://www.instagram.com/kiit_robotics.society?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
