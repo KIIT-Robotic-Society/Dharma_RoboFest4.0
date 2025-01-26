@@ -1,0 +1,4 @@
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:50:13:OL_Init	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:73:13:OL_VqdConditioning	8	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:90:13:OL_Calc	0	static
+C:/Users/mrspa/Documents/drive_tarot/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:126:13:OL_VF	0	static

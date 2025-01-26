@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="FDCAN_filter_type."/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="FDCAN_filter_type."/>
+			<item value="RxFifo0ITs"/>
+			<item value="SendCANMessage"/>
+			<item value="FDCAN_EFC "/>
+			<item value="FDCAN_format"/>
+			<item value="FDCAN_bit_rate_switching "/>
+			<item value="FDCAN_error_state_indicator"/>
+			<item value="FDCAN_data_length_code"/>
+			<item value="FDCAN_frame_type"/>
+			<item value="FDCAN_bit_rate_switching   "/>
+			<item value="FDCAN_id_type"/>
+			<item value="FDCAN_filter_config"/>
+			<item value="FDCAN_filter_type"/>
+			<item value="FilterIndex"/>
+			<item value="CAN_Interrupts"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&amp;hi2c2"/>
+			<item value="&amp;hi2c1"/>
+			<item value="&amp;hi2c3"/>
+			<item value="uint8_t"/>
+			<item value="&amp;huart3"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1030"/>
+		<item key="DIALOG_Y_ORIGIN" value="233"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

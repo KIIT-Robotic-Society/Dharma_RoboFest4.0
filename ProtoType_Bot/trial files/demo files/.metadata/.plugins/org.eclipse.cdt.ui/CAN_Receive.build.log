@@ -1,0 +1,57 @@
+13:33:30 **** Incremental Build of configuration Debug for project CAN_Receive ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.o"
+In file included from ../Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.c:29:
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c:29:10: fatal error: dsp/transform_functions.h: No such file or directory
+   29 | #include "dsp/transform_functions.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.d" -MT"Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.o"
+In file included from ../Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.c:29:
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.c:29:10: fatal error: dsp/transform_functions_f16.h: No such file or directory
+   29 | #include "dsp/transform_functions_f16.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.c:29:10: fatal error: dsp/transform_functions_f16.h: No such file or directory
+   29 | #include "dsp/transform_functions_f16.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c:29:10: fatal error: dsp/transform_functions.h: No such file or directory
+   29 | #include "dsp/transform_functions.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.o] Error 1
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.o] Error 1
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal_f16.o] Error 1
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.c:29:10: fatal error: dsp/transform_functions_f16.h: No such file or directory
+   29 | #include "dsp/transform_functions_f16.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c:29:10: fatal error: dsp/transform_functions.h: No such file or directory
+   29 | #include "dsp/transform_functions.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c:29:10: fatal error: dsp/transform_functions.h: No such file or directory
+   29 | #include "dsp/transform_functions.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.o] Error 1
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.o] Error 1
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.o] Error 1
+../Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c:29:10: fatal error: dsp/transform_functions.h: No such file or directory
+   29 | #include "dsp/transform_functions.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/DSP/Source/TransformFunctions/subdir.mk:199: Drivers/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+13:33:38 Build Failed. 17 errors, 0 warnings. (took 8s.681ms)
+

@@ -1,0 +1,7 @@
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:32:9:RI_SetRegisterGlobal	4	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:166:9:RI_SetRegisterMotor1	24	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:642:9:RI_GetRegisterGlobal	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:787:11:RI_GetRegisterMotor1	112	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:1415:9:RI_MovString	4	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:1441:9:RI_GetIDSize	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/register_interface.c:1476:16:RI_GetPtrReg	0	static

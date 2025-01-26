@@ -1,0 +1,125 @@
+12:59:50 **** Incremental Build of configuration Debug for project Comm_Dharma ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:28:
+../Core/Src/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:209:10: warning: implicit declaration of function 'copy_buffer' [-Wimplicit-function-declaration]
+  209 |          copy_buffer(RxIBus->buffer, 64);
+      |          ^~~~~~~~~~~
+../Core/Src/main.c:213:10: warning: implicit declaration of function 'J3_IBUS_RequestNewData' [-Wimplicit-function-declaration]
+  213 |          J3_IBUS_RequestNewData(RxIBus);
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'extract_and_sum_data':
+../Core/Src/main.c:545:38: warning: implicit declaration of function 'strtol'; did you mean 'strtok'? [-Wimplicit-function-declaration]
+  545 |             uint8_t value = (uint8_t)strtol(hex_value, NULL, 16);
+      |                                      ^~~~~~
+      |                                      strtok
+../Core/Src/main.c: In function 'channel_value':
+../Core/Src/main.c:739:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  739 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:742:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  742 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:745:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  745 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:748:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  748 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:751:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  751 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:754:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  754 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:757:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  757 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:760:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  760 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:763:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  763 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:766:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  766 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);  // Send newline
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:771:6: warning: conflicting types for 'copy_buffer'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  771 | void copy_buffer(uint8_t *buffer, uint16_t size) {
+      |      ^~~~~~~~~~~
+../Core/Src/main.c:209:10: note: previous implicit declaration of 'copy_buffer' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  209 |          copy_buffer(RxIBus->buffer, 64);
+      |          ^~~~~~~~~~~
+arm-none-eabi-gcc -o "Comm_Dharma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\LORA\Comm_Dharma\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Comm_Dharma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Comm_Dharma.elf
+ 
+arm-none-eabi-size  Comm_Dharma.elf 
+arm-none-eabi-objdump -h -S Comm_Dharma.elf  > "Comm_Dharma.list"
+   text	   data	    bss	    dec	    hex	filename
+  27420	     92	   3756	  31268	   7a24	Comm_Dharma.elf
+Finished building: default.size.stdout
+ 
+Finished building: Comm_Dharma.list
+ 
+
+12:59:52 Build Finished. 0 errors, 15 warnings. (took 2s.682ms)
+

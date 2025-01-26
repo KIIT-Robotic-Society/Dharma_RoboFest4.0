@@ -1,0 +1,311 @@
+18:12:32 **** Incremental Build of configuration Debug for project RTOS_TOF ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |           HAL_UART_Transmit(&huart2, "sensor 1 initialized/n", strlen("sensor 1 initialized"), HAL_MAX_DELAY);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:166:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:177:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  177 |    HAL_UART_Transmit(&huart2, "sensor 2 initialized/n", strlen("sensor 2 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:180:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  180 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:191:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  191 |    HAL_UART_Transmit(&huart2, "sensor 3 initialized/n", strlen("sensor 3 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:194:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  194 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:205:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  205 |    HAL_UART_Transmit(&huart2, "sensor 4 initialized/n", strlen("sensor 4 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:208:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  208 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:219:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  219 |           HAL_UART_Transmit(&huart2, "sensor 5 initialized/n", strlen("sensor 5 initialized"), HAL_MAX_DELAY);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:222:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  222 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:233:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  233 |    HAL_UART_Transmit(&huart2, "sensor 6 initialized/n", strlen("sensor 6 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:236:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  236 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:247:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  247 |    HAL_UART_Transmit(&huart2, "sensor 7 initialized/n", strlen("sensor 7 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:250:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  250 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:261:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  261 |    HAL_UART_Transmit(&huart2, "sensor 8 initialized/n", strlen("sensor 8 initialized"), HAL_MAX_DELAY);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:264:39: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  264 |            HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:272:4: warning: implicit declaration of function 'setSignalRateLimit_x'; did you mean 'setSignalRateLimit'? [-Wimplicit-function-declaration]
+  272 |    setSignalRateLimit_x(2000,&extraStats1);
+      |    ^~~~~~~~~~~~~~~~~~~~
+      |    setSignalRateLimit
+../Core/Src/main.c:281:4: warning: implicit declaration of function 'setVcselPulsePeriod_x'; did you mean 'getVcselPulsePeriod_x'? [-Wimplicit-function-declaration]
+  281 |    setVcselPulsePeriod_x(VcselPeriodPreRange, 10, &extraStats1);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    getVcselPulsePeriod_x
+../Core/Src/main.c: In function 'set_TOF1':
+../Core/Src/main.c:593:47: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  593 |                    HAL_UART_Transmit(&huart2, "sensor 1 initialized/n", strlen("sensor 1 initialized"), HAL_MAX_DELAY);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:596:47: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  596 |                    HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                               ^~~~~~~
+      |                                               |
+      |                                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF2':
+../Core/Src/main.c:610:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  610 |                   HAL_UART_Transmit(&huart2, "sensor 2 initialized/n", strlen("sensor 2 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:613:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  613 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF3':
+../Core/Src/main.c:627:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  627 |                   HAL_UART_Transmit(&huart2, "sensor 3 initialized/n", strlen("sensor 3 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:630:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  630 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF4':
+../Core/Src/main.c:643:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  643 |                   HAL_UART_Transmit(&huart2, "sensor 4 initialized/n", strlen("sensor 4 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:646:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  646 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF5':
+../Core/Src/main.c:657:47: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  657 |                    HAL_UART_Transmit(&huart2, "sensor 5 initialized/n", strlen("sensor 5 initialized"), HAL_MAX_DELAY);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:660:47: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  660 |                    HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                               ^~~~~~~
+      |                                               |
+      |                                               char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF6':
+../Core/Src/main.c:673:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  673 |                   HAL_UART_Transmit(&huart2, "sensor 6 initialized/n", strlen("sensor 6 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:676:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  676 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF7':
+../Core/Src/main.c:688:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  688 |                   HAL_UART_Transmit(&huart2, "sensor 7 initialized/n", strlen("sensor 7 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:691:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  691 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'set_TOF8':
+../Core/Src/main.c:703:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  703 |                   HAL_UART_Transmit(&huart2, "sensor 8 initialized/n", strlen("sensor 8 initialized"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:706:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  706 |                   HAL_UART_Transmit(&huart2, "error", strlen("error"), HAL_MAX_DELAY);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'StartTask01':
+../Core/Src/main.c:768:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  768 |         sprintf(msgBuffer_1, "Distance1: %d\r\n", distance1);
+      |         ^~~~~~~
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "VL53L0X.h"
+  +++ |+#include <stdio.h>
+   24 | /* Private includes ----------------------------------------------------------*/
+../Core/Src/main.c:768:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  768 |         sprintf(msgBuffer_1, "Distance1: %d\r\n", distance1);
+      |         ^~~~~~~
+../Core/Src/main.c:768:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'StartTask02':
+../Core/Src/main.c:789:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  789 |           sprintf(msgBuffer_2, "Distance2: %d\r\n", distance5);
+      |           ^~~~~~~
+../Core/Src/main.c:789:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "RTOS_TOF.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\VL53LOX\RTOS_TOF\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_TOF.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_TOF.elf
+ 
+arm-none-eabi-size  RTOS_TOF.elf 
+arm-none-eabi-objdump -h -S RTOS_TOF.elf  > "RTOS_TOF.list"
+   text	   data	    bss	    dec	    hex	filename
+  33168	    100	  18804	  52072	   cb68	RTOS_TOF.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_TOF.list
+ 
+
+18:12:33 Build Finished. 0 errors, 37 warnings. (took 1s.54ms)
+

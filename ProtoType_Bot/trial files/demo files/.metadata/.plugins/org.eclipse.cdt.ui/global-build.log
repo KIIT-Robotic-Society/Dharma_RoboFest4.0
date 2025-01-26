@@ -1,0 +1,450 @@
+23:22:50 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  15584	     16	   2064	  17664	   4500	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:23:35 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18596	     96	   2392	  21084	   525c	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:24:18 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18596	     96	   2392	  21084	   525c	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:26:17 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18596	     96	   2392	  21084	   525c	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:27:48 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18600	     96	   2392	  21088	   5260	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:29:33 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:114:7: warning: "/*" within comment [-Wcomment]
+  114 |       /* Notification Error */
+      |        
+../Core/Src/main.c:123:13: error: invalid storage class for function 'MX_GPIO_Init'
+  123 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:124:13: error: invalid storage class for function 'MX_FDCAN1_Init'
+  124 | static void MX_FDCAN1_Init(void);
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:125:13: error: invalid storage class for function 'MX_USART1_UART_Init'
+  125 | static void MX_USART1_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:126:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  126 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:140:5: warning: 'main' is normally a non-static function [-Wmain]
+  140 | int main(void)
+      |     ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:3: warning: implicit declaration of function 'MX_GPIO_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
+  164 |   MX_GPIO_Init();
+      |   ^~~~~~~~~~~~
+      |   HAL_GPIO_Init
+../Core/Src/main.c:165:3: warning: implicit declaration of function 'MX_FDCAN1_Init'; did you mean 'HAL_FDCAN_Init'? [-Wimplicit-function-declaration]
+  165 |   MX_FDCAN1_Init();
+      |   ^~~~~~~~~~~~~~
+      |   HAL_FDCAN_Init
+../Core/Src/main.c:166:3: warning: implicit declaration of function 'MX_USART1_UART_Init' [-Wimplicit-function-declaration]
+  166 |   MX_USART1_UART_Init();
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:3: warning: implicit declaration of function 'MX_USART2_UART_Init' [-Wimplicit-function-declaration]
+  167 |   MX_USART2_UART_Init();
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:225:6: error: static declaration of 'SystemClock_Config' follows non-static declaration
+  225 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:122:6: note: previous declaration of 'SystemClock_Config' with type 'void(void)'
+  122 | void SystemClock_Config(void);
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:272:13: error: invalid storage class for function 'MX_FDCAN1_Init'
+  272 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:325:13: error: invalid storage class for function 'MX_USART1_UART_Init'
+  325 | static void MX_USART1_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:372:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  372 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:420:13: error: invalid storage class for function 'MX_GPIO_Init'
+  420 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:477:1: error: expected declaration or statement at end of input
+  477 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:468:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  468 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:420:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  420 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:372:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  372 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:325:13: warning: 'MX_USART1_UART_Init' defined but not used [-Wunused-function]
+  325 | static void MX_USART1_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:272:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  272 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:225:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  225 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:140:5: warning: 'main' defined but not used [-Wunused-function]
+  140 | int main(void)
+      |     ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:29:54 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:114:7: warning: "/*" within comment [-Wcomment]
+  114 |       /* Notification Error */
+      |        
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18580	     96	   2392	  21068	   524c	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:31:50 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:105:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:105:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  105 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:105:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:114:7: warning: "/*" within comment [-Wcomment]
+  114 |       /* Notification Error */
+      |        
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18568	     96	   2392	  21056	   5240	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:35:01 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:106:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:106:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:106:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:115:7: warning: "/*" within comment [-Wcomment]
+  115 |       /* Notification Error */
+      |        
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18596	     96	   2392	  21084	   525c	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+23:35:23 **** Incremental Build of configuration Debug for project can_g431 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_FDCAN_RxFifo0Callback':
+../Core/Src/main.c:106:16: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:106:16: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  106 |         len += sprintf(&hexBuffer[len], "%02X ", RxData[i]);
+      |                ^~~~~~~
+../Core/Src/main.c:106:16: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:115:7: warning: "/*" within comment [-Wcomment]
+  115 |       /* Notification Error */
+      |        
+arm-none-eabi-gcc -o "can_g431.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\CAN\can_g431\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="can_g431.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: can_g431.elf
+ 
+arm-none-eabi-size  can_g431.elf 
+arm-none-eabi-objdump -h -S can_g431.elf  > "can_g431.list"
+   text	   data	    bss	    dec	    hex	filename
+  18592	     96	   2392	  21080	   5258	can_g431.elf
+Finished building: default.size.stdout
+ 
+Finished building: can_g431.list
+ 
+22:58:49 **** Build of configuration Debug for project RTOS_COMM ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:31:
+../Core/Src/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'StartTask03':
+../Core/Src/main.c:613:9: warning: implicit declaration of function 'copy_buffer' [-Wimplicit-function-declaration]
+  613 |         copy_buffer(RxIBus->buffer, 64); //parsing data from IBUS receiver
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:619:9: warning: implicit declaration of function 'J3_IBUS_RequestNewData' [-Wimplicit-function-declaration]
+  619 |         J3_IBUS_RequestNewData(RxIBus); //getting new data via DMA
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'extract_and_sum_data':
+../Core/Src/main.c:716:38: warning: implicit declaration of function 'strtol'; did you mean 'strtok'? [-Wimplicit-function-declaration]
+  716 |             uint8_t value = (uint8_t)strtol(hex_value, NULL, 16);
+      |                                      ^~~~~~
+      |                                      strtok
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:953:6: warning: conflicting types for 'copy_buffer'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  953 | void copy_buffer(uint8_t *buffer, uint16_t size) {
+      |      ^~~~~~~~~~~
+../Core/Src/main.c:613:9: note: previous implicit declaration of 'copy_buffer' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  613 |         copy_buffer(RxIBus->buffer, 64); //parsing data from IBUS receiver
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'IBUS_data_print':
+../Core/Src/main.c:1017:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1017 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1022:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1022 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1026:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1026 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1030:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1030 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1034:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1034 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1038:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1038 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1042:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1042 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1046:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1046 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1050:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1050 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:1054:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1054 |     HAL_UART_Transmit(&huart2, "\r\n", 2, HAL_MAX_DELAY);
+      |                                ^~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "RTOS_COMM.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mrspa\Documents\RoboFest\demo files\LORA\RTOS_COMM\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_COMM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_COMM.elf
+ 
+arm-none-eabi-size  RTOS_COMM.elf 
+arm-none-eabi-objdump -h -S RTOS_COMM.elf  > "RTOS_COMM.list"
+   text	   data	    bss	    dec	    hex	filename
+  31032	     96	  20184	  51312	   c870	RTOS_COMM.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_COMM.list
+ 

@@ -1,0 +1,8 @@
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:23:6:MC_Perf_Measure_Init	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:64:6:MC_Perf_Clear	4	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:94:6:MC_BG_Perf_Measure_Start	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:118:6:MC_Perf_Measure_Stop	4	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:180:6:MC_BG_Perf_Measure_Stop	4	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:241:9:MC_Perf_GetCPU_Load	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:275:9:MC_Perf_GetMaxCPU_Load	0	static
+C:/Users/mrspa/Documents/motor_workbench/d1/Src/mc_perf.c:304:9:MC_Perf_GetMinCPU_Load	0	static

@@ -1,0 +1,9 @@
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:138:19:HAL_FLASHEx_Erase	13
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:237:19:HAL_FLASHEx_Erase_IT	7
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:310:19:HAL_FLASHEx_OBProgram	39
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:399:6:HAL_FLASHEx_OBGetConfig	6
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:459:19:HAL_FLASHEx_EnableSecMemProtection	1
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:497:6:HAL_FLASHEx_EnableDebugger	1
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:509:6:HAL_FLASHEx_DisableDebugger	1
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:582:6:FLASH_PageErase	1
+C:/Users/mrspa/Documents/motor_Stm32/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:620:6:FLASH_FlushCaches	3

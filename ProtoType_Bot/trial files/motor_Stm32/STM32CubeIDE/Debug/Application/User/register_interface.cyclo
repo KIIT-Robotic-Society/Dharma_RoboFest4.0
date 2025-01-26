@@ -1,0 +1,7 @@
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:32:9:RI_SetRegisterGlobal	17
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:166:9:RI_SetRegisterMotor1	90
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:615:9:RI_GetRegisterGlobal	20
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:760:11:RI_GetRegisterMotor1	104
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:1346:9:RI_MovString	4
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:1372:9:RI_GetIDSize	2
+C:/Users/mrspa/Documents/motor_Stm32/Src/register_interface.c:1407:16:RI_GetPtrReg	21

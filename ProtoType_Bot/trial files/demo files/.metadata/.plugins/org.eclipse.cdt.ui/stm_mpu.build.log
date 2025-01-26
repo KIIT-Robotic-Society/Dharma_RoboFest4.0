@@ -1,0 +1,10 @@
+12:35:46 **** Incremental Build of configuration Debug for project stm_mpu ****
+make -j8 all 
+arm-none-eabi-size  stm_mpu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38988	    472	   2424	  41884	   a39c	stm_mpu.elf
+Finished building: default.size.stdout
+ 
+
+12:35:46 Build Finished. 0 errors, 0 warnings. (took 258ms)
+

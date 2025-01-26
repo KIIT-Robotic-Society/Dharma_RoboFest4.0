@@ -1,0 +1,14 @@
+../Core/Src/uartRingBuffer.c:42:6:Ringbuf_init	1
+../Core/Src/uartRingBuffer.c:54:6:store_char	2
+../Core/Src/uartRingBuffer.c:70:12:check_for	8
+../Core/Src/uartRingBuffer.c:103:5:Uart_read	2
+../Core/Src/uartRingBuffer.c:120:6:Uart_write	3
+../Core/Src/uartRingBuffer.c:136:5:IsDataAvailable	1
+../Core/Src/uartRingBuffer.c:143:6:Uart_sendstring	2
+../Core/Src/uartRingBuffer.c:148:6:GetDataFromBuffer	10
+../Core/Src/uartRingBuffer.c:205:6:Uart_flush	1
+../Core/Src/uartRingBuffer.c:212:5:Uart_peek	2
+../Core/Src/uartRingBuffer.c:230:5:Copy_upto	10
+../Core/Src/uartRingBuffer.c:268:5:Get_after	5
+../Core/Src/uartRingBuffer.c:284:5:Wait_for	13
+../Core/Src/uartRingBuffer.c:329:6:Uart_isr	6

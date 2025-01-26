@@ -1,0 +1,7 @@
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:478:13:FOC_Clear	16	static
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:81:13:FOC_Init	40	static
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:154:6:TSK_MF_StopProcessing	8	static
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:514:13:FOC_InitAdditionalMethods	0	static
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:537:13:FOC_CalcCurrRef	24	static,ignoring_inline_asm
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:172:13:TSK_MediumFrequencyTaskM1	32	static
+C:/Users/mrspa/Documents/motor_Stm32/Src/mc_tasks_foc.c:592:16:FOC_HighFrequencyTask	64	static

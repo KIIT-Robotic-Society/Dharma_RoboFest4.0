@@ -1,0 +1,12 @@
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:86:13:MCboot	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:247:13:TSK_SetChargeBootCapDelayM1	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:258:13:TSK_ChargeBootCapDelayHasElapsedM1	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:274:13:TSK_SetStopPermanencyTimeM1	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:285:13:TSK_StopPermanencyTimeHasElapsedM1	0	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:311:16:TSK_HighFrequencyTask	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:369:13:TSK_SafetyTask_PWMOFF	24	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:344:13:TSK_SafetyTask	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:159:13:MC_RunMotorControlTasks	16	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:434:13:TSK_HardwareFaultTask	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:447:13:UI_HandleStartStopButton_cb	8	static
+C:/Users/mrspa/Documents/drive_tarot/Src/mc_tasks.c:465:13:mc_lock_pins	96	static

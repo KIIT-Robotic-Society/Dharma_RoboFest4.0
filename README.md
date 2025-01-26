@@ -19,6 +19,7 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 2. **Smart Remote**: The main control interface for the bot, featuring a Raspberry Pi, touchscreen, and long-range communication.
 3. **Smartwatch**: A peripheral control and monitoring device equipped with sensors and ESP-32-based communications.
 4. **Turret System**: The turret system is a rotating module mounted on the bot, designed to carry cameras and sensors. It provides 360-degree horizontal rotation and adjustable vertical tilt, enabling the bot to monitor or track targets in multiple directions.
+4. **Gripper**:  It also consist of a hand gripper which is a versatile, precision-handling tool with adjustable grip strength and articulated fingers. It enables the dog to pick up, hold, and manipulate objects, performing tasks like delivering items or interacting with its environment.
 
 ## Subsystems
 
@@ -51,13 +52,32 @@ The main bot integrates:
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
+### [ProtoType Bot](main_BOT/PoC_Bot.md) :guide_dog:
+The main bot integrates the following components:
+
+- **STM32H755ZI-Q**: Manages core functions, handles communication with the SBCs, and controls peripheral electronics and FOC drivers.
+- **STM32G431KB**: Oversees data collection and analysis from the three IMUs.
+- **STM32F446RE**: Manages the TOF sensor and facilitates communication through LORA and IBUS.
+- **STM32G431-ESC1**: FOC driver with magnetic encoder, enabling precise position control of the BLDC motor.
+- **CAN Bus**: All microcontrollers communicate via CAN Bus for synchronized control and data exchange.
+
 ### [Turret System](Turret_System/turret.md) :gun:
 The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
 
+### [Hand Gripper](Gripper\Gripper.md) :mechanical_arm:
+The gripper system features:
+
+- **NVIDIA Jetson Orin Nano**: This powerful local SBC runs the reinforcement learning (RL) model, enabling real-time object recognition and environmental analysis using LIDAR and 3D cameras for seamless operation.
+- **Waveshare Encoder Servo**: The encoder servo ensures precise and accurate movement of the gripper, allowing for fine-tuned control in handling objects.
+
 ## Project Context :star: :india:
 This project was developed as part of RoboFest, held in 2024, organised by Gujarat Council on Science and Technology(GUJCOST).
+
+The project has participated in the Grand Final of RoboFest Gujarat 4.0, hosted by the Gujarat Government, in Ahmedabad.
+
+*Project Under Development*
 
 ## Social Media :star2:
 [Website](https://krs.kiit.ac.in)
@@ -65,4 +85,4 @@ This project was developed as part of RoboFest, held in 2024, organised by Gujar
 [Linkedin](https://www.linkedin.com/company/kiit-robotics-society-bbsr/mycompany/)
 
 ## Project Link :link:
-https://github.com/mr-spaw/Dharma_RoboFest
+https://github.com/KIIT-Robotic-Society/Dharma_RoboFest4.0.git

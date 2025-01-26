@@ -1,0 +1,12 @@
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:566:13:HAL_COMP_MspInit	1
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:224:19:HAL_COMP_Init	16
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:581:13:HAL_COMP_MspDeInit	1
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:517:19:HAL_COMP_DeInit	3
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:776:19:HAL_COMP_Start	6
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:830:19:HAL_COMP_Stop	4
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:952:19:HAL_COMP_Lock	5
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:1005:10:HAL_COMP_GetOutputLevel	1
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:1019:13:HAL_COMP_TriggerCallback	1
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:872:6:HAL_COMP_IRQHandler	4
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:1053:23:HAL_COMP_GetState	2
+C:/Users/mrspa/Documents/motor_workbench/d1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c:1073:10:HAL_COMP_GetError	1
