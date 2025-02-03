@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Welcome to the Robotic Dog Project! We appreciate your interest in contributing to our open-source project. By participating, you help advance robotics in our college society. Please follow these guidelines to ensure a smooth and collaborative experience.
+Welcome to the Project Dharma! We appreciate your interest in contributing to our open-source project. By participating, you help advance robotics in our college society. Please follow these guidelines to ensure a smooth and collaborative experience.
 
 ## 📜 Code of Conduct
 
